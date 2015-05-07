@@ -2,11 +2,19 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*main #A63E3E*/
+/*main #042A6B*/
 /*.color-primary-1 { color: #F6A8A8 }
 .color-primary-2 { color: #CB6A6A }
 .color-primary-3 { color: #831F1F }
 .color-primary-4 { color: #590606 }*/
+
+#042A6B: #042A6B;
+
+/*.color-primary-0 { color: #0946AE }
+.color-primary-1 { color: #3F74CF }
+.color-primary-2 { color: #1459CF }
+.color-primary-3 { color: #06378A }
+.color-primary-4 { color: #042A6B }*/
 
 	body {
 		background: #fff;
@@ -33,7 +41,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #A63E3E !important;
+			color: #042A6B !important;
 		}
 
 	strong, b {
@@ -190,7 +198,7 @@
 	}
 
 	header.major h2 {
-		color: #A63E3E;
+		color: #042A6B;
 		font-size: 3.5em;
 	}
 
@@ -254,7 +262,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #A63E3E;
+			border-color: #042A6B;
 		}
 
 	.select-wrapper {
@@ -365,7 +373,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #A63E3E;
+			border-color: #042A6B;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -557,7 +565,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #A63E3E;
+					background: #042A6B;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -846,7 +854,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #A63E3E;
+			background-color: #042A6B;
 			color: #ffffff !important;
 		}
 
@@ -916,8 +924,8 @@
 /* Header */
 
 	#header {
-		background: #A63E3E;
-		color: #A63E3E;
+		background: #042A6B;
+		color: #042A6B;
 		height: 100%;
 		position: fixed;
 		text-align: center;
@@ -939,7 +947,7 @@
 		}
 
 		#header a {
-			color: #A63E3E;
+			color: #042A6B;
 		}
 
 			#header a:hover {
@@ -962,7 +970,7 @@
 			}
 
 			#header > header p {
-				color: #A63E3E;
+				color: #042A6B;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -990,7 +998,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #A63E3E;
+				border-top: solid 2px #042A6B;
 				display: block;
 				padding: 0;
 			}
@@ -1010,7 +1018,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #A63E3E !important;
+						color: #042A6B !important;
 					}
 
 				#header > nav ul li:first-child {
